@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    background: #f2eadc;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+/* cabezera del index*/
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: #5b3924;
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #eec170;
+    padding: 0 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+header .liApartados{
+    position: relative;
+    display: flex;
+}
+
+header .liApartados li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .liApartados li a{
+    text-decoration: none;
+    color: #5b3924;
+    font-weight: 600px;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+header .liApartados li a:hover {
+    color: red;
+}
+
